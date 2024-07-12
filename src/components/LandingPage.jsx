@@ -64,7 +64,7 @@ const LandingPage = ({ values, onBookNow }) => {
             src={imgurl}
             alt={name}
           />
-          <div className="h-full w-full bg-[#50B498]/20 absolute top-0 left-0 flex justify-between flex-col items-center py-10 md:hidden">
+          <div className="h-full w-full bg-[#50B498]/20 absolute top-0 left-0 flex justify-between flex-col items-center py-20 md:hidden">
           <motion.h1
          initial={{ opacity: 0, y: 10 }}
          animate={{ opacity: 1, y: 0 }}
@@ -85,8 +85,8 @@ const LandingPage = ({ values, onBookNow }) => {
          animate={{ opacity: 1, skewY: 0, y: 0 }}
          transition={{ duration: 0.7, delay: 0.4 }}
         type="button" onClick={onBookNow}  className="h-12 w-36 relative group">
-        <div className="h-full w-full rounded-full flex items-center justify-center group-hover:bg-[#ECCEAE] bg-[#ffd3b689] backdrop-blur-[2px] outline outline-1 outline-offset-4 outline-[#ecceae5e] duration-[.7s] ease-in-out cursor-pointer group-hover:scale-x-[.65] shadow-lg shadow-[#ecceae84]">
-          <h4 className="text-[#D6EFD8] font-gilroy tracking-wider duration-[.7s] group-hover:tracking-normal group-hover:opacity-0">
+        <div className="h-full w-full rounded-full flex items-center justify-center group-hover:bg-[#ECCEAE] bg-[#ffd3b689] backdrop-blur-[2px] outline outline-1 outline-offset-4 outline-[#ecceae5e] duration-[.7s] ease-in-out cursor-pointer group-hover:scale-x-[.65] shadow-lg shadow-[#698474]">
+          <h4 className="text-[#254336d7] font-semibold font-gilroy tracking-wider duration-[.7s] group-hover:tracking-normal group-hover:opacity-0">
             Book Now
           </h4>
         </div>
