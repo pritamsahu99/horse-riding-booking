@@ -11,7 +11,7 @@ const HorsesData = ({ onBookNow }) => {
         { keyIndex: 1, 
           name: 'Spirit Horse',
           description: "Customers might choose Spirit for its spirited and charismatic demeanor, suitable for challenging terrain or competitive sports. Spirit's name resonates with riders looking to connect with a horse known for its intelligence, loyalty, and unwavering spirit.", 
-          imgurl: 'public/assets/blaze-horse-landscape.jpg' },
+          imgurl: 'public/assets/spirit-horse-landscpae.jpg' },
         { keyIndex: 2, 
           name: 'Thunder Horse',
           description: "Customers might be drawn to Thunder for adventurous trail rides or activities requiring vigor and resilience. Thunder's name suggests a thrilling and exhilarating ride experience.",
