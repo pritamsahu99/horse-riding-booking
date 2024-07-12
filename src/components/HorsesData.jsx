@@ -5,26 +5,25 @@ import "swiper/css";
 import 'swiper/css/effect-fade';
 import { Navigation, EffectFade, Pagination } from "swiper/modules";
 import LandingPage from "./LandingPage";
-import { MotionConfig } from "framer-motion";
 
 const HorsesData = ({ onBookNow }) => {
     const horsesDetails = [
         { keyIndex: 1, 
           name: 'Spirit Horse',
           description: "Customers might choose Spirit for its spirited and charismatic demeanor, suitable for challenging terrain or competitive sports. Spirit's name resonates with riders looking to connect with a horse known for its intelligence, loyalty, and unwavering spirit.", 
-          imgurl: './src/public/assets/spirit-horse-landscpae.jpg' },
+          imgurl: 'public/assets/blaze-horse-landscape.jpg' },
         { keyIndex: 2, 
           name: 'Thunder Horse',
           description: "Customers might be drawn to Thunder for adventurous trail rides or activities requiring vigor and resilience. Thunder's name suggests a thrilling and exhilarating ride experience.",
-          imgurl: './src/public/assets/thunder-horse-landscape.jpeg' },
+          imgurl: 'public/assets/thunder-horse-landscape.jpeg' },
         { keyIndex: 3,
           name: 'Blaze Horse',
           description: "Blaze typically refers to a marking on a horse's face, often a white patch, which can resemble a blaze of fire.", 
-          imgurl: './src/public/assets/blaze-horse-landscape.jpg' },
+          imgurl: 'public/assets/blaze-horse-landscape.jpg' },
         { keyIndex: 4, 
           name: 'Shadow Horse',
           description: "Customers may select Shadow for tranquil rides through scenic landscapes or for therapeutic purposes, seeking a calm and serene experience. Shadow's name could appeal to those interested in building a bond with a gentle yet resilient companion.", 
-          imgurl: './src/public/assets/shadow-horse-landscape.jpg' },
+          imgurl: 'public/assets/shadow-horse-landscape.jpg' },
         
       ];
 
